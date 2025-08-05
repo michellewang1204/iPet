@@ -65,16 +65,12 @@ pip install googletrans
 ##  示意圖
 
 ###  MBTI問卷填答頁面
-<img width="235" height="444" alt="image" src="https://github.com/user-attachments/assets/567e8cc4-7b3c-41ed-befc-8f8bbc51b2df" />
+
 
 ###  文字和語音填答頁面
-<img width="236" height="444" alt="image" src="https://github.com/user-attachments/assets/cdaeffc5-d1ae-454b-8a1b-d064fd9326e8" />
 
 ### MBTI測驗結果頁面
-<img width="238" height="439" alt="image" src="https://github.com/user-attachments/assets/22d8da92-4fab-44b1-b9c9-531977543e55" />
-<img width="240" height="453" alt="image" src="https://github.com/user-attachments/assets/4d6b98cc-4154-460c-b81d-6879682cb445" />
 
 ### 寵物照護頁面
-<img width="237" height="389" alt="image" src="https://github.com/user-attachments/assets/b46bf0bd-9668-4501-823d-04c629f26910" />
 
 
