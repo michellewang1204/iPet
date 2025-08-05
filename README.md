@@ -63,15 +63,17 @@ pip install googletrans
 ---
 
 ##  示意圖
-![health care page](images/health_care_page.png)
 
 ###  MBTI問卷填答頁面
-
+![mbti_questions_page](images/mbti_questions_page.png)
 
 ###  文字和語音填答頁面
+![mbti_aimodel_analyze page](images/mbti_aimodel_analyze.png)
 
 ### MBTI測驗結果頁面
+![final_result page](images/final_result.png)
+![mbti_dogs page](images/mbti_dogs.png)
 
 ### 寵物照護頁面
-
+![health care page](images/health_care_page.png)
 
