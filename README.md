@@ -59,12 +59,11 @@ pip install joblib
 pip install warnings  
 pip install regex  
 pip install googletrans
-
+```
 ---
 
 ##  示意圖
-![health care page](https://raw.githubusercontent.com/michellewang1204/iPet/main/images/final_result.png)
-
+![health care page](images/health_care_page.png)
 
 ###  MBTI問卷填答頁面
 
