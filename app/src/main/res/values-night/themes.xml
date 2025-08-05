@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Test" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/theblue</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="colorAccent">@color/theblue</item>
+        <item name="android:textColorPrimary">@color/theblue</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/theblue</item>
+    </style>
+</resources>

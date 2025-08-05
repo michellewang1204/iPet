@@ -1,0 +1,12 @@
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Base application theme. -->
+        <style name="Theme.Test" parent="Theme.AppCompat.Light">
+            <!-- Primary brand color. -->
+            <item name="colorPrimary">#FFDF5C</item>
+            <item name="colorPrimaryDark">#FFDF5C</item>
+            <item name="android:statusBarColor">@color/theblue</item>
+            <item name="colorAccent">@color/theblue</item>
+            <item name="android:textColorPrimary">@color/theblue</item>
+            <item name="actionMenuTextColor">@color/theblue</item>
+        </style>
+    </resources>

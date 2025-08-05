@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TempActivity">
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/nvgationview"
+
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+
+      android:background="#FFFFFF"
+      app:labelVisibilityMode="labeled"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:menu="@menu/menu">
+
+  </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+      <ImageView
+          android:id="@+id/myProfi2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:contentDescription="@string/myProfile"
+          app:srcCompat="@drawable/myprofi" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Posts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/app_myPosts"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Followers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/app_myFollowers"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Likes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/app_myLikes"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ib_dog1"
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:onClick="picture_Click"
+            app:srcCompat="@drawable/cutedog2"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/ib_dog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cutedog1"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+      </LinearLayout>
+
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

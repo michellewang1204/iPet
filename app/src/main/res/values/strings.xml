@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="app_name">ipet</string>
+
+    <string name="app_name2">BMI</string>
+
+    <string name="height">身高</string>
+
+    <string name="Name">  Username</string>
+
+    <string name="userName">  Email</string>
+
+    <string name="passWord">  Password</string>
+
+    <string name="heightDefault">170</string>
+
+    <string name="bt_check">登入</string>
+
+    <string name="bt_forget">忘記密碼</string>
+
+    <string name="bt_register">註冊帳號</string>
+
+    <string name="change">確定更改</string>
+
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="check_success">logging success</string>
+
+    <string name="logging_failed">logging failed</string>
+
+    <string name="string_logging_failed">登入失敗</string>
+
+    <string name="string_health"/>
+
+    <string name="yes">Yes</string>
+
+    <string name="no">No</string>
+
+    <string name="id">imageView</string>
+    >
+    <string name="health">health</string>
+
+    <string name="adopt">adopt</string>
+
+    <string name="add">add</string>
+
+    <string name="post">post</string>
+
+    <string name="home">home</string>
+
+    <string name="todo1">TODO1</string>
+
+    <string name="_2022_1_10">2022/1/10周一</string>
+
+    <string name="_2022_1_11">2022/1/11周二</string>
+
+    <string name="todo">TODO2</string>
+
+    <string name="todo3">TODO</string>
+
+    <string name="todo4">TODO</string>
+
+    <string name="title_activity_main4">MainActivity4</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="next">Next</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="todo5">TODO</string>
+
+    <string name="todo6">TODO</string>
+
+    <string name="todo7">TODO</string>
+
+    <string name="todo8">TODO</string>
+
+    <string name="todo20">TODO</string>
+
+    <string name="app_settings">Settings</string>
+
+    <string name="myProfile">myProfile</string>
+
+    <string name="app_myFollowers">Followers\n456</string>
+
+    <string name="app_myPosts">Posts\n3</string>
+
+    <string name="app_myLikes">Likes\n1857</string>
+
+    <string name="cuteDog1">myProfi_post1</string>
+
+    <string name="cuteDog2">myProfi_post2</string>
+
+    <string name="cuteDog3">myProfi_post3</string>
+
+    <string name="space"> </string>
+
+    <string name="登出">登出</string>
+
+    <string name="更改個人資料">更改個人資料</string>
+
+    <string name="whichToChange">編輯個人資料</string>
+
+    <string name="changeName">名字</string>
+
+    <string name="changePassword">密碼</string>
+
+    <string name="通知">通知</string>
+
+    <string name="iv_adopt_dog_detail">adopt dog detail</string>
+
+    <string name="backToPreviousPage">回到前一頁</string>
+
+    <string name="question1">1.哪種狀況更符合你...</string>
+
+    <string name="button1">喜歡出去找樂子</string>
+
+    <string name="button2">喜歡在家讀一本好書或看影集</string>
+
+    <string name="question2">2.當你學習新東西時，你習慣...</string>
+
+    <string name="button3">邊看邊學</string>
+
+    <string name="button4">根據自己的直覺或興趣選擇性的學習、記憶</string>
+
+    <string name="question3">3. 你一般都怎麼做決定...</string>
+
+    <string name="button5">依靠邏輯推理</string>
+
+    <string name="button6">參雜了許多感情</string>
+
+    <string name="question4">4.哪種描述更符合你...</string>
+
+    <string name="button7">會把生活的各個方面都用的井井有條，將事情都提前安排好</string>
+
+    <string name="button8">不喜歡照著規劃走，喜歡突如其來的驚喜</string>
+
+    <string name="button9">查看結果</string>
+
+    <string name="submit">submit</string>
+
+    <string name="name">名字：</string>
+
+    <string name="gender">性別：</string>
+
+    <string name="birthday">生日：</string>
+
+    <string name="age">年齡：</string>
+
+    <string name="feed">feed</string>
+
+    <string name="poop">poop</string>
+
+    <string name="deworm">deworm</string>
+
+    <string name="medicine">medicine</string>
+
+    <string name="vaccine">vaccine</string>
+
+    <string name="test">test</string>
+
+    <string name="test_strart1">快來找出最適合你的狗狗吧！\n\n</string>
+
+    <string name="test_strart2">\n\nMBTI人格分析問卷\n\n</string>
+
+    <string name="test_strart3">進行問卷測驗</string>
+
+    <string name="test_result">你的MBTI人格是 </string>
+
+    <string name="register_result">你的帳號資訊是 </string>
+
+</resources>

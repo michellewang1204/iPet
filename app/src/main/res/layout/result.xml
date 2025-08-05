@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DFEBEC"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:background="@drawable/personality"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:letterSpacing="0.2"
+                            android:paddingLeft="20dp"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="10"
+                            android:shadowDy="10"
+                            android:shadowRadius="1"
+                            android:text="MBTI"
+                            android:textColor="@color/white"
+                            android:textSize="40dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dp"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="10"
+                            android:shadowDy="10"
+                            android:shadowRadius="1"
+                            android:text="測驗結果"
+                            android:textColor="@color/white"
+                            android:textSize="40dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    app:cardBackgroundColor="@color/tho"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/layout1"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonstyle2"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+                            <!--            android:text="  下午  00 : 00"-->
+                            <TextView
+                                android:id="@+id/alarm1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="8"
+                                android:gravity="center"
+                                android:text="測驗結果"
+                                android:textColor="@color/white"
+                                android:textSize="42dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:srcCompat="@drawable/intj">
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/alarmset"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="5"
+                                android:background="#00000000"
+                                android:elevation="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/text1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/theblue"
+                                    android:textSize="20dp">
+
+                                </TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:text="你的命定狗狗"
+                                android:textColor="@color/theblue"
+                                android:textSize="24dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/alarmset"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="5"
+                                android:background="#00000000"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/dimg1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/dog1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/theblue"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/alarmset"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="5"
+                                android:background="#00000000"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/dimg2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/dog2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/theblue"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/alarmset"
+                            android:elevation="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="5"
+                                android:background="#00000000"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/dimg3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/dog3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/theblue"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/back"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonstyle2"
+                            android:padding="20dp"
+                            android:text="返回主頁"
+                            android:textColor="@color/white"
+                            android:textSize="24dp"
+                            android:textStyle="bold"></Button>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

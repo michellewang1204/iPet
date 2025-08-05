@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/health_selector"
+        android:title="健康" />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_selector"
+        android:title="主頁" />
+
+    <item
+        android:id="@+id/testStart"
+        android:icon="@drawable/test_selector"
+        android:title="測驗" />
+
+</menu>

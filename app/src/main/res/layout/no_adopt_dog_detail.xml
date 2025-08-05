@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".no_adopt_AdoptDogDetail" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" app:srcCompat="@drawable/adopt_dog_detail" android:contentDescription="@string/iv_adopt_dog_detail" android:id="@+id/iv_adopt_dog_detail"/>
+
+</LinearLayout>

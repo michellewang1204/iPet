@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SpinnerValue">
+        <item>五合一</item>
+        <item>八合一</item>
+        <item>十合一</item>
+        <item>萊姆病</item>
+        <item>狂犬病</item>
+    </string-array>
+    <string-array name="Spinner">
+        <item>寵愛食剋</item>
+        <item>蚤不到</item>
+        <item>全能狗</item>
+        <item>必剋蝨</item>
+        <item>益百分</item>
+        <item>犬新寶</item>
+    </string-array>
+    <string-array name="gender">
+        <item>boy</item>
+        <item>girl</item>
+    </string-array>
+    <string-array name="dogs">
+        <item>哈士奇</item>
+        <item>吉娃娃</item>
+        <item>拉布拉多犬</item>
+        <item>柯基</item>
+        <item>柴犬</item>
+        <item>法鬥</item>
+        <item>瑪爾濟斯</item>
+        <item>米克斯</item>
+        <item>博美</item>
+        <item>其他</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ipeticon1"
+        android:label="iPet"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test"
+        >
+        <activity android:exported="false" android:name=".myProfile"/>
+        <activity android:exported="false" android:name=".addfood"/>
+        <activity android:exported="false" android:name=".addpetinfo"/>
+        <activity android:exported="false" android:name=".changefood"/>
+        <activity android:exported="false" android:name=".addpooptime"/>
+        <activity android:exported="false" android:name=".changepoop"/>
+        <activity android:exported="false" android:name=".addmedicine"/>
+        <activity android:exported="false" android:name=".changemedicine"/>
+        <activity android:exported="false" android:name=".LoginFailed"/>
+        <activity android:exported="false" android:name=".food"/>
+        <activity android:exported="false" android:name=".poop"/>
+        <activity android:exported="false" android:name=".vaccine"/>
+        <activity android:exported="false" android:name=".no_addpost"/>
+        <activity android:exported="false" android:name=".no_adopt_AdoptDogDetail"/>
+        <activity android:exported="false" android:name=".medicine"/>
+        <activity android:exported="false" android:name=".deworming"/>
+        <activity android:exported="false" android:name=".no_Adopt"/>
+        <activity android:exported="false" android:name=".health"/>
+        <activity android:exported="false" android:name=".no_Post"/>
+        <activity android:exported="false" android:name=".setting"/>
+        <activity android:exported="false" android:name=".no_post_PostDetail"/>
+        <activity android:exported="false" android:name=".test"/>
+        <activity android:exported="false" android:name=".result"/>
+        <activity android:exported="false" android:name=".testStart"/>
+        <activity android:exported="false" android:name=".register"/>
+        <activity android:exported="false" android:name=".changePassword"/>
+        <activity android:exported="false" android:name=".loading"/>
+        <activity android:exported="false" android:name=".speak"/>
+        <activity android:exported="false" android:name=".profile"/>
+        <activity android:exported="false" android:name=".login1"/>
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".foodbroadcast"
+            android:enabled="true"/>
+<!--        <receiver-->
+<!--            android:name=".poopbroadcast"-->
+<!--            android:enabled="true"/>-->
+        <receiver
+            android:name=".medicinebroadcast"
+            android:enabled="true"/>
+        <receiver
+            android:name=".dewormbroadcast"
+            android:enabled="true"/>
+        <receiver
+            android:name=".vaccinebroadcast"
+            android:enabled="true"/>
+        <receiver
+            android:name=".poopbroadcast"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action
+                    android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.example.LocalBot"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

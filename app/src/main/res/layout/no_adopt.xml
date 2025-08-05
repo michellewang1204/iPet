@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ib_dog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/bt_check"
+    android:orientation="vertical"
+    tools:context=".no_Adopt">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nvgationview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ib_AdoptDog"
+            android:layout_width="match_parent"
+            android:layout_height="362dp"
+            android:onClick="pictureOnClick"
+            app:srcCompat="@drawable/doggoo"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_yes"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@color/sec"
+                android:text="@string/yes" />
+
+            <Button
+                android:id="@+id/bt_No"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:background="@color/sec"
+                android:text="@string/no" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

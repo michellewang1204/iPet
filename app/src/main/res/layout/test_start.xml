@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".testStart">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nvgationview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/icon"
+        app:itemIconTint="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightbule">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:paddingBottom="75dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/test_start1" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/test_strart3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/buttonstyle2"
+                android:elevation="5dp"
+                android:padding="20dp"
+                android:text="@string/test_strart3"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/speak"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="75dp"
+                android:background="@drawable/buttonstyle2"
+                android:elevation="5dp"
+                android:padding="20dp"
+                android:text="AI幫你分析"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
