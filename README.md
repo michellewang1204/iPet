@@ -72,6 +72,7 @@ pip install googletrans
 
 ### MBTI測驗結果頁面
 ![final_result page](images/final_result.png)
+
 ![mbti_dogs page](images/mbti_dogs.png)
 
 ### 寵物照護頁面
