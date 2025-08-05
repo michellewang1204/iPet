@@ -36,10 +36,10 @@ iPet 是一款 Android App，讓使用者可以透過 MBTI 人格來了解自己
 
 ##  專案結構
 
-- `default_models/`：jpyserver.py 使用的 RandomForest 模型資料
+- `Python/default_models/`：jpyserver.py 使用的 RandomForest 模型資料
 - `iPet/`：Android Studio App 主體
-- `jpyserver.py`：用於人格分析與犬種推薦的 Python 伺服器程式
-- `project.sql`：資料庫建置 SQL 檔案
+- `Python/jpyserver.py`：用於人格分析與犬種推薦的 Python 伺服器程式
+- `Python/project.sql`：資料庫建置 SQL 檔案
 
 ---
 
