@@ -63,7 +63,7 @@ pip install googletrans
 ---
 
 ##  示意圖
-(images/health_care_page.png)
+![health care page](images/health_care_page.png)
 
 ###  MBTI問卷填答頁面
 
