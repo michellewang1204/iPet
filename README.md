@@ -40,7 +40,6 @@ iPet 是一款 Android App，讓使用者可以透過 MBTI 人格來了解自己
 - `iPet/`：Android Studio App 主體
 - `jpyserver.py`：用於人格分析與犬種推薦的 Python 伺服器程式
 - `project.sql`：資料庫建置 SQL 檔案
-- `iPet 專題成果書.pdf`：專題簡報與報告文件
 
 ---
 
